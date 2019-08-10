@@ -16,7 +16,7 @@ This simple Maven project is importing JaCoCo's coverage report.
 * Once the SonarQube Server is up and running then you can visit the SonarQube Dashboard at http://localhost:9000/dashboard/ \
 Default System administrator credentials are **admin/admin**
 
-* Build the project, execute all the tests and analyze the project with SonarQube Scanner for Maven:\
+* Build the project, execute all the tests and analyze the project with SonarQube Scanner for Maven\
 **`mvn clean verify sonar:sonar`**\
 or\
 **`mvn clean install sonar:sonar`**
